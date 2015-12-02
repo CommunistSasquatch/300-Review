@@ -1,0 +1,42 @@
+@import 'defaults';
+
+body {
+  background: linear-gradient(180deg, #a90000, black) no-repeat;
+
+}
+
+#filler {
+  color: black;
+  font-family: "Trebuchet MS";
+  font-size: 2.8vh;
+
+}
+
+
+#date {
+  z-index: 1;
+  position: absolute;
+  font-size: 1.7vh ;
+  left: 6%;
+  top: 30%;
+  transform: translate(0, -50%) ;
+}
+
+#container {
+  margin-bottom: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-left: 5%;
+  color: black;
+  position: relative;
+  max-width: 100%;
+  padding-top: 20%;
+  padding-left: 7%;
+  padding-bottom: 7%;
+  padding-right: 7%;
+
+  height: 100%;
+  width: 100%;
+  border: solid 5px black;
+  background-color: white;
+}
