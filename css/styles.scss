@@ -10,11 +10,54 @@ body {
   font-family: "Trebuchet MS";
 }
 
+#title {
+  background: linear-gradient(90deg, red, black) no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#tree {
+  float: left;
+  top: 0;
+  max-width: 10%;
+  img {
+    max-width: 100%;
+  }
+}
+
+#comparison {
+  float: right;
+  top: 0%;
+  max-width: 90%;
+  img {
+    max-width: 100%;
+  }
+}
+
+#xerxes {
+  float: left;
+  top: 0;
+  max-width: 10%;
+  img {
+    max-width: 100%;
+  }
+}
+
+
+#cliff {
+  float: left;
+  top: 0;
+  max-width: 10%;
+  img {
+    max-width: 100%;
+  }
+}
+
 
 #date {
   float: left;
   z-index: 1;
-  position: relative;
+  position: absolute;
   font-size: 1.7vh ;
 
 }
